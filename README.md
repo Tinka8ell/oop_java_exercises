@@ -69,12 +69,18 @@ We've created the Cat interface to get you started
 Assuming that Cat is supposed to be an interface, and that is what is being tested, 
 create minimum to get tests to compile:
 * Created stub classes for CheaterCat, DomesticatedCat, LionCat
-* Created an abstract class Animal for them all to inherit that temporarily implements the Cat interface
+* Created an abstract class [Animal](src/main/java/com/techreturners/cats/Animal.java) for them all to inherit 
+that temporarily implements the Cat interface
 * Temporarily implement stub methods in Animal that satisfy the Cat interface
 * Success! - all classes compile, tests run, but some tests fail - by fluke some pass ;-)
 
 ### Phase Two
 
-* Remove interface fromm Animal - animals are not necessarily cats, 
+* Remove interface fromm [Animal](src/main/java/com/techreturners/cats/Animal.java) - animals are not necessarily cats, 
 but animals do all the things that cats might.
 * Surprise! Surprise more tests pass, but not all yet!
+
+### Phase Three
+
+* Gave [DomesticCat](src/main/java/com/techreturners/cats/DomesticCat.java) a default constructor, so it can be domestic
+* One more test passes!
