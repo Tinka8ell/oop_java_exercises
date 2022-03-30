@@ -53,7 +53,5 @@ public abstract class Animal {
      *
      * @return null as not implemented
      */
-    public String eat() {
-        return null;
-    }
+    public abstract String eat();
 }

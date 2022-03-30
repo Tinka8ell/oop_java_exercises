@@ -84,3 +84,10 @@ but animals do all the things that cats might.
 
 * Gave [DomesticCat](src/main/java/com/techreturners/cats/DomesticCat.java) a default constructor, so it can be domestic
 * One more test passes!
+
+### Phase Four
+
+* Decided to make eat() abstract as each Animal will have to implement their own!
+* Added implementations, as per spec, where required to compile.
+* Many more tests pass!
+
