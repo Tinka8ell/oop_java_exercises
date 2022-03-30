@@ -106,3 +106,10 @@ but animals do all the things that cats might.
 * Refactored by inserting a Feline class for all cats to inherit from!
 * New tests actually pass!  
 
+### Extension Three
+
+* Gave the Domestic Cat an occasional moan :-)
+* New tests actually pass! 
+* And then tey don't! As expected feedTheCat fails one in three!
+* I'm not changing the test!
+
