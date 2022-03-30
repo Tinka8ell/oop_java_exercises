@@ -1,6 +1,6 @@
 package com.techreturners.cats;
 
-public class DomesticCat extends Animal implements Cat {
+public class DomesticCat extends Feline implements Cat {
 
     /**
      * Ensure Domestic Cats are domesticated!

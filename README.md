@@ -101,3 +101,8 @@ but animals do all the things that cats might.
 * As all the tests pass! I feel I should add some more to check for some basic edge cases that are missing.
 * New tests actually pass!  
 
+### Extension Two
+
+* Refactored by inserting a Feline class for all cats to inherit from!
+* New tests actually pass!  
+

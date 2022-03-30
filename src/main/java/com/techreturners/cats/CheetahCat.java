@@ -1,6 +1,6 @@
 package com.techreturners.cats;
 
-public class CheetahCat extends Animal implements Cat {
+public class CheetahCat extends Feline implements Cat {
     /**
      * A cheetah will let out a snoring sound as it becomes tired following a chase.
      *

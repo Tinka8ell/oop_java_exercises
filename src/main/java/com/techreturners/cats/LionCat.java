@@ -1,9 +1,9 @@
 package com.techreturners.cats;
 
-public class LionCat extends Animal implements Cat {
+public class LionCat extends Feline implements Cat {
 
     /**
-     * Lion Cats a a smidge taller than the average animal!
+     * Lion Cats a smidge taller than the average animal!
      */
     public LionCat() {
         averageHeight = 1100;
