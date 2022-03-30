@@ -91,3 +91,8 @@ but animals do all the things that cats might.
 * Added implementations, as per spec, where required to compile.
 * Many more tests pass!
 
+### Phase Five
+
+* Added default constructor to the "wild" cats to set the average height.
+* Many more tests pass!
+

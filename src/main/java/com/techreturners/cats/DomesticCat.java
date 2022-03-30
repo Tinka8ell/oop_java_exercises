@@ -7,6 +7,7 @@ public class DomesticCat extends Animal implements Cat {
      */
     public DomesticCat() {
         domesticated = true;
+        averageHeight = 23;
     }
 
     /**

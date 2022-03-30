@@ -2,7 +2,7 @@ package com.techreturners.cats;
 
 public abstract class Animal {
     protected boolean domesticated = false; // default to wild
-    protected final int averageHeight = 100; // default to 1 metre
+    protected int averageHeight = 100; // default to 1 metre
     protected boolean isAsleep = false; // default to awake
 
     /**
