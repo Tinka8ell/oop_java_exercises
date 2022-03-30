@@ -96,3 +96,8 @@ but animals do all the things that cats might.
 * Added default constructor to the "wild" cats to set the average height.
 * Many more tests pass!
 
+### Extension One
+
+* As all the tests pass! I feel I should add some more to check for some basic edge cases that are missing.
+* New tests actually pass!  
+
