@@ -2,10 +2,11 @@
 
 ## Instructions
 
-This repository contains challenges for you to undertake around Object-Oriented programming in Java. You can work on these
-challenges individually or in a pair.
+This repository contains challenges for you to undertake around Object-Oriented programming in Java. 
+You can work on these challenges individually or in a pair.
 
-(The instructions below assume you have got your laptop setup ready for running Java applications as per the pre-journey)
+(The instructions below assume you have got your laptop setup 
+ready for running Java applications as per the pre-journey)
 
 To get started you should "fork" this repository into your own Git account and the clone down to your machine.
 
@@ -19,7 +20,8 @@ You'll see that all the tests are currently failing.
 
 Your job is to one by one fix the failing tests.
 
-If you are working in a pair, we recommend working on one person's machine during pairing, but once your session has ended send over the code to your pair so that you both have a copy.
+If you are working in a pair, we recommend working on one person's machine during pairing, 
+but once your session has ended send over the code to your pair so that you both have a copy.
 
 ## Some facts about your objects
 
@@ -47,7 +49,8 @@ After a cat has eaten its food their reaction tends to differ between species
     * A domestic cat tends to let our a purring sound
 
 
-As a bonus exercise some domestic cats will randomly let out a dismissive "It will do I suppose" comment following eating.
+As a bonus exercise some domestic cats will randomly let out a dismissive 
+"It will do I suppose" comment following eating.
 
 We've created the Cat interface to get you started 
 
@@ -61,6 +64,8 @@ We've created the Cat interface to get you started
 
 ## My solution
 
+### Phase One
+
 Assuming that Cat is supposed to be an interface, and that is what is being tested, 
 create minimum to get tests to compile:
 * Created stub classes for CheaterCat, DomesticatedCat, LionCat
@@ -68,3 +73,8 @@ create minimum to get tests to compile:
 * Temporarily implement stub methods in Animal that satisfy the Cat interface
 * Success! - all classes compile, tests run, but some tests fail - by fluke some pass ;-)
 
+### Phase Two
+
+* Remove interface fromm Animal - animals are not necessarily cats, 
+but animals do all the things that cats might.
+* Surprise! Surprise more tests pass, but not all yet!

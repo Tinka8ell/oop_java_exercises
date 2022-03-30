@@ -1,32 +1,58 @@
 package com.techreturners.cats;
 
-public abstract class Animal implements Cat{
-    @Override
+public abstract class Animal {
+    protected boolean domesticated = false; // default to wild
+    protected final int averageHeight = 100; // default to 1 metre
+    protected boolean isAsleep = false; // default to awake
+
+    /**
+     * Getter for sleep state.
+     *
+     * @return true iff we are asleep
+     */
     public boolean isAsleep() {
-        return false;
+        return isAsleep;
     }
 
-    @Override
+    /**
+     * Minimal implementation of "go to sleep".
+     */
     public void goToSleep() {
-
+        isAsleep = true;
     }
 
-    @Override
+    /**
+     * Minimal implementation of "wake up".
+     */
     public void wakeUp() {
-
+        isAsleep = false;
     }
 
-    @Override
+    /**
+     * Getter for "setting".
+     * Interpret internal boolean state as a String.
+     *
+     * @return "domestic" or "wild"
+     */
     public String getSetting() {
-        return null;
+        return (domesticated) ? "domestic" : "wild";
     }
 
-    @Override
+    /**
+     * Getter for "average height".
+     * Minimal implementation is to return the field.
+     *
+     * @return average height in centimetres
+     */
     public int getAverageHeight() {
-        return 0;
+        return averageHeight;
     }
 
-    @Override
+    /**
+     * Minimal implementation of "eat".
+     *
+     * @return null as not implemented
+     */
     public String eat() {
         return null;
     }
